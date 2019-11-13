@@ -1,4 +1,4 @@
-# site-s4m0r1
+# s4m0r1-site
 
 > My splendid Nuxt.js project
 
