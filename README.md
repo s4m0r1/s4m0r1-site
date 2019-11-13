@@ -17,6 +17,10 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# firebase start
+$ firebase generate
+$ firebase deploy
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
