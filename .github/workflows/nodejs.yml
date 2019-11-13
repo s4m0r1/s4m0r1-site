@@ -29,5 +29,5 @@ jobs:
         CI: true
     - name: deploy to Firebase Hosting
       run: |
-        npm install -g firebase
-        firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
+        npm install firebase
+        ./node_modules/.bin/firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
