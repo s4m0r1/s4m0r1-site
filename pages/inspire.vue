@@ -11,6 +11,7 @@
         <footer>
           <small>
             <em>&mdash;John Johnson</em>
+            <p>aaaaaa</p>
           </small>
         </footer>
       </blockquote>
