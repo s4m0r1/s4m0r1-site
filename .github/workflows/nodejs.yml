@@ -23,11 +23,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install, build
       run: |
-        npm install -g firebase
         npm ci
         npm run generate
       env:
         CI: true
     - name: deploy to Firebase Hosting
       run: |
+        npm install -g firebase
         firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
